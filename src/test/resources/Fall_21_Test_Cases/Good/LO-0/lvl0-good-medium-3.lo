@@ -1,0 +1,7 @@
+// test extra parenthesis, string, string operation
+String a,b;
+
+{
+a = (((("hello world"))));
+b = (a * 5);
+}

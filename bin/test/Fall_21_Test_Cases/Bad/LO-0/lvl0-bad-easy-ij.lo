@@ -1,0 +1,6 @@
+//bad case
+//Identifier starts with _
+String _abc;
+{
+_abc = "Hello World";
+}

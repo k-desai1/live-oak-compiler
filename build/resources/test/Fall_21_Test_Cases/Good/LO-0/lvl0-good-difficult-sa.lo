@@ -1,0 +1,9 @@
+//good case
+//check ternary operator
+int c;
+String a,b;
+{
+a= "hi";
+b="Hello";
+c = ((a=b)?1:0);
+}

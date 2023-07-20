@@ -1,0 +1,6 @@
+//bad case:incorrect return type
+
+int main(){
+return true;
+}
+

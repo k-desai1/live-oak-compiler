@@ -1,0 +1,19 @@
+// good test case
+// Expected: 20
+
+int main(){
+int a, b;
+{
+a=20;
+b=10;
+if((a>b))
+{
+return a;
+}
+else
+{
+return b;
+}
+return (a-b);
+}
+}

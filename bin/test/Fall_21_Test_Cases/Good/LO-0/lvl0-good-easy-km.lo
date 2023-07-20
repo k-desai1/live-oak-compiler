@@ -1,0 +1,8 @@
+//good testcase 
+//variable declaration and initialization
+int i, j;
+bool b;
+{
+i = 0;
+b = true;
+}

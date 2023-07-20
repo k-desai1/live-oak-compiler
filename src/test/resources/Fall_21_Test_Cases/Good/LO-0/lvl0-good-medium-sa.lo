@@ -1,0 +1,8 @@
+// test unary an binary operator
+String a,b,c;
+
+{
+a = "Hello";
+b = (~a);
+c= (a+b);
+}

@@ -1,0 +1,12 @@
+// test ternary choice operation and while loop
+
+String a,b;
+{
+  a = "hello world";
+  if (((a = "hello world")? (b = "c"): (a = "Goodbye"))) {
+     while (true) {
+        break;
+     }
+  }
+  else {;}
+}

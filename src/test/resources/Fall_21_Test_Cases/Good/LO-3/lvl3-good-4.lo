@@ -1,0 +1,16 @@
+// class with multiple methods and use class type as class var declaration
+class square(int length, String name) {
+     int getArea() {
+         {return length * length;}
+     }
+
+     String getName() {
+         {return name;}
+     }
+}
+
+class main(square s) {
+      square get() {
+        {return s;}
+      }
+}

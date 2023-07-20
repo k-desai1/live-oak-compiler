@@ -1,0 +1,17 @@
+// test while loop,break statement,if else statement, unary oprator;
+bool a;
+int i;
+{
+a = true;
+i=10;
+while (a) {
+  if((i<5))
+  {
+  break;
+  }
+ else
+ {
+  i = (i-1);
+ }
+         }
+}

@@ -1,0 +1,8 @@
+// test boolean operation
+bool a, b, c;
+
+{
+a = (true);
+b = (false);
+c = (((!a) & b) | (!b));
+}

@@ -1,0 +1,4 @@
+// invalid grammar
+class square(int length) {
+      int length = this.length;
+}

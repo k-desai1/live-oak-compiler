@@ -1,0 +1,30 @@
+  // *Good test case*
+// Function call
+// Expected: 90
+// Points = 3
+
+int main()
+{
+  {
+    return foo(10, 20);
+  }
+}
+
+int foo(int a, int b)
+{
+  int c;
+  {
+    c = bar(a);
+    c = (c + b);
+    return c;
+  }
+}
+
+int bar(int a)
+{
+  int b;
+  {
+    b = ((((((a+10)+10)+10)+10)+10)+10);
+    return b;
+  }
+}

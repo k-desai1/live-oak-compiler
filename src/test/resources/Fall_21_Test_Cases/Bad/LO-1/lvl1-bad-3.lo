@@ -1,0 +1,4 @@
+// bad case: missing parenthesis
+{
+  while("Hello World") {
+}

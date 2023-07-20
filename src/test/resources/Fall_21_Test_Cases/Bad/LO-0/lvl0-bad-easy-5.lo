@@ -1,0 +1,7 @@
+// bad case
+String a = "abc";
+String b;
+
+{
+  b = "Hello World" * "Say Goodbye!";
+}

@@ -1,0 +1,5 @@
+// test interaction between parenthesis and binary operator
+int a;
+{
+a = ((5) + 6);
+}

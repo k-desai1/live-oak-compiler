@@ -1,0 +1,6 @@
+// basic class declaration
+class car() {
+  int carPrice() {
+      {return 10;}
+  }
+}

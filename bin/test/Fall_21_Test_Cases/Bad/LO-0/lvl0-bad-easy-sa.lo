@@ -1,0 +1,6 @@
+//bad case
+//string value is not enclosed in "
+String xyz;
+{
+ xyz= Welcome;
+}

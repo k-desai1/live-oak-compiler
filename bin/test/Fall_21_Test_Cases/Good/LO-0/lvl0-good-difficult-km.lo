@@ -1,0 +1,11 @@
+//good case
+//unary and binary operators
+int a, b, c;
+bool s, t;
+{
+t = true;
+a = 2;
+b = 3;
+c = (a + b);
+s = (!t);
+}

@@ -1,0 +1,17 @@
+// *Bad testcase*
+// Too many arguments
+// Will pass compilation but fail at runtime
+// Points = 3
+
+int main()
+{
+    int a;
+    {
+     a=5;
+     return foo(a,a);
+    }
+}
+
+int foo(int a) {
+   {return a;}
+}

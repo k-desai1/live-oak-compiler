@@ -1,0 +1,27 @@
+// *Good test case*
+// Break statement
+// Expected: 345
+// Points = 7
+
+int main() {
+int a, b, c;
+
+{
+a = 431;
+b = 123;
+c = 345;
+
+while((b<a)) {
+   while((b<c)) {
+       b = (b+1);
+   }
+   if((b = 345)) {
+      break;
+   }
+   else {
+      b = (b + 1);
+   }
+}
+   return b;
+}
+}

@@ -1,0 +1,13 @@
+// *Bad testcase*
+// Declaration after statements
+// Points = 3
+
+int main() {
+    int a, b, c;
+    {
+      a = 10;
+      int d,
+      d = 0;
+      return d;
+    }
+}

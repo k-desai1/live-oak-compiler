@@ -1,0 +1,9 @@
+// test while loop and break
+bool a;
+
+{
+a = true;
+while (a) {
+  break;
+}
+}

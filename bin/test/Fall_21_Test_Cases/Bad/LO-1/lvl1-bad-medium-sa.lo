@@ -1,0 +1,9 @@
+// bad case: missing if statement
+int a;
+{
+  else
+  {
+  a=5;
+  }
+  
+}

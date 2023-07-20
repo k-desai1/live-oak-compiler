@@ -1,0 +1,15 @@
+// test class object creation, class method invokation
+class circle(int radius) {
+   int area() {
+       {return 3 * radius * radius;}
+   }
+}
+
+class main() {
+  void run() {
+       {
+        circle c = new circle (4);
+        c.area();
+       }
+  }
+}

@@ -1,0 +1,10 @@
+// good testcase : tsts while loop
+
+int a,i;
+{
+a = 10;
+i=0;
+while ((a > i)) {
+  i = (i+1);
+}
+}

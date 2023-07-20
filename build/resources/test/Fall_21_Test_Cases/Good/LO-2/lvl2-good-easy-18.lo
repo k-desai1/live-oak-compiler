@@ -1,0 +1,16 @@
+// *Good test case*
+// Uncalled functions
+// Expected: 0
+// Points = 3
+
+int main() {
+    {return 0;}
+}
+
+int foo() {
+    {return 10;}
+}
+
+int bar() {
+    {return 20;}
+}

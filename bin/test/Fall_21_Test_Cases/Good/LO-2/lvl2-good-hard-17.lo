@@ -1,0 +1,16 @@
+// *Good test case*
+// Return value as argument
+// Expected result: 30
+// Points = 3
+
+int foo() {
+   {return 10;}
+}
+
+int bar(int a) {
+    {return (a + 20);}
+}
+
+int main() {
+    {return bar(foo());}
+}

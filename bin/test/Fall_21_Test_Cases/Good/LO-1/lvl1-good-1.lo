@@ -1,0 +1,12 @@
+// test if...else control block
+int a, b;
+String c;
+
+{
+  if((a = b)) {
+     c = "Hello World";
+  }
+  else {
+     c = "say Goodbye";
+  }
+}

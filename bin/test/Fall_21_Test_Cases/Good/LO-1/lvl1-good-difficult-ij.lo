@@ -1,0 +1,18 @@
+//good case : multiple if blocks
+
+String a, b, c;
+{
+a = "Hello World";
+if((a = "Hello World")){
+b = "Goodbye";
+}
+else{
+	;
+}
+if((b = "Goodbye")){
+c = "How are you";
+}
+else{
+	;
+}
+}

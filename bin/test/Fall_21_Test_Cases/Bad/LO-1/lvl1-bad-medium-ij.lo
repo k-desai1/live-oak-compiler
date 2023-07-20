@@ -1,0 +1,8 @@
+//bad case : missing parantheses for expression
+int a;
+{
+a = 2;
+if(a < 5){
+
+}
+}

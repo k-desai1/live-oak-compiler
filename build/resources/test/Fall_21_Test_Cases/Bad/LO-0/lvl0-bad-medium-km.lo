@@ -1,0 +1,9 @@
+//bad testcase 
+//invalid variable declaration
+int i, j,;
+String b;
+{
+i = 0;
+b = true;
+;
+}

@@ -1,0 +1,7 @@
+//good case
+//null statement
+int a;
+{
+a = 5;
+;
+}

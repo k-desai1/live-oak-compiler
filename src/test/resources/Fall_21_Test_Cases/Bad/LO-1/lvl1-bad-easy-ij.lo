@@ -1,0 +1,9 @@
+//bad case
+//missing paranthesis
+int a;
+{
+a = 5;
+if((a > 1)){
+
+
+}

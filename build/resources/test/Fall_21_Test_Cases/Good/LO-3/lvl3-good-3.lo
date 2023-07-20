@@ -1,0 +1,14 @@
+// test this
+class circle(int radius) {
+      circle getCircle() {
+             {return this;}
+      }
+}
+
+class main() {
+   void run() {
+        {circle c = circle(4);
+         circle d = c.getCircle();
+        }
+   }
+}

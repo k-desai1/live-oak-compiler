@@ -1,0 +1,10 @@
+// test moderate complex method 
+// Expected: 14
+
+int f(int a, int b) {
+    {return (a + b);}
+}
+
+int main() {
+  {return f(2, (3*4));}
+}

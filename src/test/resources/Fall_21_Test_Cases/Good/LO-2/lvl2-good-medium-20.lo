@@ -1,0 +1,22 @@
+// *Good test case*
+// While inside if
+// Expected: 5
+// Points = 5
+
+int main() {
+    int a;
+    {
+     a = 0;
+
+     if ((a=0)) {
+        while((a<5)){
+           a = (a+1);
+        }
+     }
+     else {
+	;
+     }
+
+     return a;
+     }
+}

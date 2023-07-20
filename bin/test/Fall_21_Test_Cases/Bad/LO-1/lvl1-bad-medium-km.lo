@@ -1,0 +1,10 @@
+//bad case : missing paranthesis
+
+int a;
+{
+a = 2;
+if a > 5
+{
+a = 5;
+}
+}

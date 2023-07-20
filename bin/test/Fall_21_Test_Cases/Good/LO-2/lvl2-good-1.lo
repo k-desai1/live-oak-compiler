@@ -1,0 +1,10 @@
+// declare and call a simple method
+// Expected: 1
+
+bool f () {
+    {return true;}
+}
+
+int main() {
+  {return (f()?1:(~1));}
+}
